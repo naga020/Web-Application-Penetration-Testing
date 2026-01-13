@@ -83,3 +83,12 @@ Any attempt to perform similar attacks on real-world applications without permis
 ## 👤 Author
 **Nagageettha B S**  
 GitHub: https://github.com/naga020
+
+## 🔐 Security Fixes Implemented
+
+- Prevented SQL Injection using prepared statements and input validation
+- Mitigated XSS attacks using output encoding (htmlspecialchars)
+- Implemented CSRF protection using security tokens
+- Enforced secure session handling
+- Followed OWASP Top 10 best practices
+
